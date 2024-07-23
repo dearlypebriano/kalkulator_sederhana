@@ -1,11 +1,24 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header hr {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: 10px 0;
 }
 
 .calculator {
